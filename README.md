@@ -1,1 +1,1 @@
-# projekts
+# projekts all
