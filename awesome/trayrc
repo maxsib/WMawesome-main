@@ -1,0 +1,5 @@
+#!/bin/bash
+stalonetray &
+nm-applet &
+#xpad &
+#xfce4-clipman &
