@@ -1,4 +1,7 @@
 # awesome 
+
+WMawesome-4!
+
 optional depends: xcompmgr (compton), rxvt-unicode, unclutter, yeahconsole, pcmanfm,- see rc.lua{run_once}, fontawesome(!!!-tagnames), ..., awesome))
 
 install awesome
