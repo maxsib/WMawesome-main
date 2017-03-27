@@ -4,7 +4,7 @@ WMawesome-4!
 
 1.install wm-awesome, git, xcompmgr, rxvt-unicode, fontawesome
 
-2.optional compton, pcmanfm, yeahconsole
+2.optional unclutter, compton, pcmanfm, yeahconsole
 
 3.mkdir ~/github/
 
