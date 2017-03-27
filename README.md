@@ -25,3 +25,5 @@ WMawesome-4!
 11.cp .urxvtrc ~/
 
 12.logout or 'echo "exec awesome" >> ~/.xinitrc', 'vim ~/.xinitrc', logout
+
+switch theme in rc.lua <beautiful.init (50,51,52 strings)>
