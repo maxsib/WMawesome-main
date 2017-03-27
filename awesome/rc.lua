@@ -48,8 +48,8 @@ end
 --beautiful.init("~/.config/awesome/themes/xresources/theme.lua")
 --beautiful.init("~/.config/awesome/themes/mad/theme.lua")
 --beautiful.init("~/.config/awesome/themes/gentoo/theme.lua")
-beautiful.init("~/.config/awesome/themes/dwm/theme.lua")
---beautiful.init("~/.config/awesome/themes/ubuntu/theme.lua")
+--beautiful.init("~/.config/awesome/themes/dwm/theme.lua")
+beautiful.init("~/.config/awesome/themes/ubuntu/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 --terminal = "xterm"
