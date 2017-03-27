@@ -2,24 +2,24 @@
 
 WMawesome-4!
 
-optional depends: xcompmgr (compton), rxvt-unicode, unclutter, yeahconsole, pcmanfm,- see rc.lua{run_once}, fontawesome(!!!-tagnames), ..., awesome))
+1.install wm-awesome, git, xcompmgr, rxvt-unicode, fontawesome
 
-install awesome
+2.optional compton, pcmanfm, yeahconsole
 
-install git
+3.mkdir ~/github/
 
-cd ~/.config
+4.cd ~/github
 
-git clone https://github.com/maxsib/WMawesome-main.git
+5.git clone https://github.maxsib/WMawesome-main.git
 
-cd ~/.config/WMawesome-main/
+6.cp -R awesome/ ~/.config
 
-cp -R awesome/ ~/.config/
+7.mv ~/.Xresources ~/.Xresources.MY
 
-cd
+8.mv ~/.urxvtrc ~/.urxvtrc.MY
 
-(echo "exec awesome" >> ~/.xinitrc
+9.cp .Xresources ~/
 
-vim .xinitrc
+10.cp .urxvtrc ~/
 
-logout)
+11.logout or 'echo "exec awesome" >> ~/.xinitrc', 'vim ~/.xinitrc', logout
