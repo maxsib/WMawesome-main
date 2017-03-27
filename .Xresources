@@ -4,30 +4,51 @@
 #include ".xterm"
 
 ! Цвета терминала ------------------------------------------------------------
-
-*background:   #352f2f
-*foreground:   #c9c8c8
-!black
-*color0:       #3b3535
-*color8:       #4e4949
-!red
-*color1:       #854340
-*color9:       #854340
-!green
-*color2:       #668c71
-*color10:      #668c71
-!yellow
-*color3:       #b2885d
-*color11:      #b2885d
-!blue
-*color4:       #41647b
-*color12:      #41647b
-!magenta
-*color5:       #915556
-*color13:      #915556
-!cyan
-*color6:       #477578
-*color14:      #477578
-!white
-*color7:       #c9c8c8
-*color15:      #c9c8c8
+!!! Paints !!!
+!*background:   #352f2f
+!*foreground:   #c9c8c8
+!!black
+!*color0:       #3b3535
+!*color8:       #4e4949
+!!red
+!*color1:       #854340
+!*color9:       #854340
+!!green
+!*color2:       #668c71
+!*color10:      #668c71
+!!yellow
+!*color3:       #b2885d
+!*color11:      #b2885d
+!!blue
+!*color4:       #41647b
+!*color12:      #41647b
+!!magenta
+!*color5:       #915556
+!*color13:      #915556
+!!cyan
+!*color6:       #477578
+!*color14:      #477578
+!!white
+!*color7:       #c9c8c8
+!*color15:      #c9c8c8
+!
+!
+!Colors
+*foreground: #696969
+*background: #fffef6
+*color0: #363636
+*color8: #424242
+*color1: #C37561
+*color9:  #D19485
+*color2: #A0A57E
+*color10: #7f8264
+*color3: #b58b62
+*color11: #DEBC9C
+*color4: #1d2b41
+*color12: #98A1B9
+*color5: #AB716D
+*color13: #b4d2c8
+*color6: #98B9B1
+*color14: #769293
+*color7: #9ba0a7
+*color15: #6e7383
