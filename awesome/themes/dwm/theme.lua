@@ -17,7 +17,7 @@ theme.bg_minimize   = "#5f9ea011" --cadet blue
 theme.bg_systray    = theme.bg_urgent
 
 theme.fg_normal     = "#2f4f4f" --dark state gray
-theme.fg_focus      = "#b8860b"  --dark goldenrod
+theme.fg_focus      = "#cdcdc1" 
 theme.fg_urgent     = "#cd5c5c"
 theme.fg_minimize   = "#cd5c5c"
 
