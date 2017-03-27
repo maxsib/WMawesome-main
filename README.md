@@ -12,14 +12,16 @@ WMawesome-4!
 
 5.git clone https://github.maxsib/WMawesome-main.git
 
-6.cp -R awesome/ ~/.config
+6.cd WMawesome-main/
 
-7.mv ~/.Xresources ~/.Xresources.MY
+7.cp -R awesome/ ~/.config
 
-8.mv ~/.urxvtrc ~/.urxvtrc.MY
+8.mv ~/.Xresources ~/.Xresources.MY
 
-9.cp .Xresources ~/
+9.mv ~/.urxvtrc ~/.urxvtrc.MY
 
-10.cp .urxvtrc ~/
+10.cp .Xresources ~/
 
-11.logout or 'echo "exec awesome" >> ~/.xinitrc', 'vim ~/.xinitrc', logout
+11.cp .urxvtrc ~/
+
+12.logout or 'echo "exec awesome" >> ~/.xinitrc', 'vim ~/.xinitrc', logout
