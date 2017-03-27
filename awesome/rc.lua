@@ -351,8 +351,7 @@ end),
 
     -- Standard program
     awful.key({ modkey,                      }, "Return", function ()
-                                             awful.spawn(terminal, { x= 62 , y = 44 , width = 350, height = 26 , 
-     } )   end,
+                                             awful.spawn(terminal)   end,
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
