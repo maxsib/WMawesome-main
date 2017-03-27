@@ -1,0 +1,99 @@
+! General
+!urxvt*termName:  rxvt-256color
+urxvt*loginShell:         true
+urxvt*scrollBar:         false
+urxvt*secondaryScroll:    true
+urxvt*saveLines:         65535
+urxvt*cursorBlink:       true
+urxvt*urgentOnBell:       true
+!urxvt*override-redirect:false
+!urxvt*borderLess:       false
+!urxvt*internalBorder:       0
+!urxvt*externalBorder:       0
+URxvt*geometry:		116x41
+!URxvt*geometry:		92x29
+!URxvt.perl-ext:  tabbed
+!URxvt*foreground:	 #ed6e6a
+! Extensions
+urxvt*perl-lib:        /usr/lib/urxvt/perl/
+urxvt*perl-ext-common: default,matcher,searchable-scrollback
+urxvt*urlLauncher:     /usr/bin/opera
+urxvt*matcher.button:  1
+!  - catch ugly URLs
+urxvt.cutchars:        `()'*<>[]{|}"'
+ 
+! Appearance
+!  - use a bitmap font
+!urxvt*font:        -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+!urxvt*boldFont:    -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
+!URxvt*font: xft:LiberationMono-Italic:pixelsize=13
+!URxvt*font: xft:UbuntuMono:pixelsize=15
+!URxvt*boldFont: xft:LiberationMono-BoldItalic:bold:pixelsize=13
+!URxvt*boldFont: xft:UbuntuBold:bold:pixelsize=15
+!  - use xft for drawing fonts
+URxvt*font:       xft:Fixed:pixelsize=16:autohint=true:antialias=true:hinting=true
+!URxvt*font:       xft:Terminus:Fixed:pixelsize=14
+!URxvt*font:       xft:
+!  - cursor
+urxvt*cursorColor: #DCDCCC
+!Xcursor.theme: gentoo
+!Xcursor.theme: gentoo-blue
+!Xcursor.theme: gentoo-silver
+!Xcursor.theme: Blue
+!Xcursor.theme: Gold
+!Xcursor.theme: Silver
+!Xcursor.theme: Obsidian
+!Xcursor.size: 26
+!  - pseudo transparency
+urxvt*shading:    30
+urxvt*fading:     30
+urxvt*transparent:true
+!urxvt*transparent:false
+
+!urxvt*foreground: white
+!urxvt*foreground: #F5F3D7
+urxvt*foreground: #7A7A7A
+!urxvt*foreground: #F2F4F4
+!urxvt*background: blue
+urxvt*background: black
+!urxvt*background: #1E1B12
+
+
+! Normal
+! color0    BLACK
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue (синий)
+! color5    purple (фиолетовый)
+! color6    cyan (голубой)
+! color7    white
+
+!urxvt*color0:    #000000
+!urxvt*color1:    #C00000
+!urxvt*color2:    #00C000
+!urxvt*color3:    #C0C000
+!urxvt*color4:    #0C00C0
+!urxvt*color5:    #AA00AA
+!urxvt*color6:    #00AAAA
+!urxvt*color7:    #FFFFFF
+
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white
+
+!urxvt*color8:   #7A7A7A
+!urxvt*color9:   #ED9572
+!urxvt*color10:   #4FE84D
+!urxvt*color11:   #FFFD75
+!urxvt*color12:   #99A7FF
+!urxvt*color13:   #FF9CF2
+!urxvt*color14:   #BDFCFC
+!urxvt*color15:   #E6F2EA
+
