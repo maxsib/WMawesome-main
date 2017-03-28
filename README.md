@@ -2,7 +2,7 @@
 
 WMawesome-4! 
 
-Simple, functional configuration of working.
+A simple, functional configuration for working.
 
 awful.widget.taglist.filter.selected
 
