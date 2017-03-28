@@ -1,6 +1,8 @@
 # awesome 
 
-WMawesome-4!
+WMawesome-4! 
+
+Simplicity, functionality configuration.
 
 awful.widget.taglist.filter.selected
 
