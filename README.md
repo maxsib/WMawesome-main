@@ -8,6 +8,6 @@ optdepends: fontawesome, urxvt, xcompmgr...
 
 3 style: dwm, ubuntu, gentoo..
 
-NO widgets, powerarrow etc...
+NO widgets, powerarrow etc... (and will not)
 
 END
