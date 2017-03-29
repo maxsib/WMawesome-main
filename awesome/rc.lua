@@ -100,6 +100,8 @@ modkey = "Mod4"
 --]]
 
 lain.layout.cascade.nmaster  =  3
+lain.layout.cascade.offset_x      = 12
+lain.layout.cascade.offset_y      = 8
 lain.layout.cascadetile.offset_x      = 2
 lain.layout.cascadetile.offset_y      = 17
 lain.layout.cascadetile.extra_padding = 2
