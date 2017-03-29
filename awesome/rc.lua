@@ -677,13 +677,13 @@ run_once("unclutter -root")
 --run_once("xpad")
 --run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-blue 0.6")
 --run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-green 0.6")
---run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-red 0.6")
+run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-red 0.4") -- for ubuntu style
 run_once("yeahconsole")
 --run_once("xfce4-clipman")
 --run_once("nitrogen --restore")
 run_once("pcmanfm -d")
 --run_once("xcompmgr -c -t-5 -l-5 -r4.2 -o.55")
-run_once("xcompmgr -cCfF -t-5 -l-5 -r4.2 -o.55 -D3")
+--run_once("xcompmgr -cCfF -t-5 -l-5 -r4.2 -o.55 -D3")
 
 --}}}
 --awful.mouse.snap.edge_enabled = true
