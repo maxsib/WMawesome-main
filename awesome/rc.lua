@@ -48,8 +48,8 @@ end
 --beautiful.init("~/.config/awesome/themes/xresources/theme.lua")
 --beautiful.init("~/.config/awesome/themes/mad/theme.lua")
 --beautiful.init("~/.config/awesome/themes/gentoo/theme.lua")
---beautiful.init("~/.config/awesome/themes/dwm/theme.lua")
-beautiful.init("~/.config/awesome/themes/ubuntu/theme.lua")
+beautiful.init("~/.config/awesome/themes/dwm/theme.lua")
+--beautiful.init("~/.config/awesome/themes/ubuntu/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 --terminal = "xterm"
@@ -99,9 +99,9 @@ modkey = "Mod4"
 }
 --]]
 
-lain.layout.cascade.nmaster  =  3
-lain.layout.cascade.offset_x      = 12
-lain.layout.cascade.offset_y      = 8
+lain.layout.cascade.nmaster  =  8
+lain.layout.cascade.offset_x      = 8
+lain.layout.cascade.offset_y      = 3
 lain.layout.cascadetile.offset_x      = 2
 lain.layout.cascadetile.offset_y      = 17
 lain.layout.cascadetile.extra_padding = 2
@@ -559,8 +559,8 @@ awful.rules.rules = {
 
     -- Add titlebars to normal clients and dialogs
     { rule_any = {type = { "normal", "dialog" }},    
-   properties = { titlebars_enabled = true }
-  -- properties = { titlebars_enabled = false }
+  -- properties = { titlebars_enabled = true }
+   properties = { titlebars_enabled = false }
     },
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
@@ -677,13 +677,13 @@ run_once("unclutter -root")
 --run_once("xpad")
 --run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-blue 0.6")
 --run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-green 0.6")
-run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-red 0.4") -- for ubuntu style
+--run_once("compton -cCfz -r8 -t-10 -l-7 -o 0.5 -m 0.8 -i 0.9 -e 0.6 -D7 --inactive-dim 0.3 --shadow-red 0.4") -- for ubuntu style
 run_once("yeahconsole")
 --run_once("xfce4-clipman")
 --run_once("nitrogen --restore")
-run_once("pcmanfm -d")
+--run_once("pcmanfm -d")
 --run_once("xcompmgr -c -t-5 -l-5 -r4.2 -o.55")
---run_once("xcompmgr -cCfF -t-5 -l-5 -r4.2 -o.55 -D3")
+run_once("xcompmgr -cCfF -t-5 -l-5 -r4.2 -o.55 -D3")
 
 --}}}
 --awful.mouse.snap.edge_enabled = true
