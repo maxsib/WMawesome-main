@@ -56,7 +56,7 @@ beautiful.init("~/.config/awesome/themes/ubuntu/theme.lua")
 local terminal = "urxvtc"
 --editor = os.getenv("EDITOR") or "nano"
 --editor = os.getenv("EDITOR") or "vim"
-local editor = "geany" or "vim"
+local editor = "tea" or "vim"
 local editor_cmd = terminal .. " -e " .. editor
 local filemanager = "pcmanfm"
 local browser = "seamonkey"
